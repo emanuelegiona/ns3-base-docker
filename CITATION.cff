@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ns-3 Docker images
+message: >-
+  If you use any of the Docker images described in
+  this repository, please cite this work using the
+  following metadata.
+type: software
+authors:
+  - given-names: Emanuele
+    family-names: Giona
+    email: giona@di.uniroma1.it
+    affiliation: >-
+      Department of Computer Science, Sapienza
+      University of Rome
+    orcid: 'https://orcid.org/0000-0003-0871-7156'
+url: >-
+  https://github.com/emanuelegiona/ns3-base-docker
+keywords:
+  - docker
+  - ns-3
+  - network-simulation
+license: MIT
+doi: 10.5281/zenodo.10657287
