@@ -17,5 +17,5 @@ Supported versions:
 
 
 <!--- Releases --->
-[v100]: ./releases/tag/v1.0.0
+[v100]: https://github.com/emanuelegiona/ns3-base-docker/releases/tag/v1.0.0
 [img-inspo]: https://github.com/SENSES-Lab-Sapienza/ns3-woss-docker/releases/tag/v2.0.1

@@ -143,7 +143,7 @@ Giona, E. ns-3 Docker images [Computer software]. https://doi.org/10.5281/zenodo
 
 **BibTeX**
 ```
-@software{Giona_ns-3_Docker,
+@software{Giona_ns-3_Docker_images,
 author = {Giona, Emanuele},
 doi = {10.5281/zenodo.10657287},
 license = {MIT},
