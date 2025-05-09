@@ -17,8 +17,11 @@ Docker image name: [**`egiona/ns3-base`**][docker-hub-repo].
 | [`u22.04-n3.41`][image6] | Ubuntu 22.04 | [3.41][ns3.41] | CMake | [link][file6] |
 | [`u22.04-n3.40`][image5] | Ubuntu 22.04 | [3.40][ns3.40] | CMake | [link][file5] |
 | [`u20.04-n3.40`][image4] | Ubuntu 20.04 | [3.40][ns3.40] | CMake | [link][file4] |
+| [`u18.04-n3.35-boosted`][image3b] | Ubuntu 18.04</br>with Boost C++ v1.74 | [3.35][ns3.35] | Waf | [link][file3b] |
 | [`u18.04-n3.35`][image3] | Ubuntu 18.04 | [3.35][ns3.35] | Waf | [link][file3] |
+| [`u18.04-n3.34-boosted`][image2b] | Ubuntu 18.04</br>with Boost C++ v1.74 | [3.34][ns3.34] | Waf | [link][file2b] |
 | [`u18.04-n3.34`][image2] | Ubuntu 18.04 | [3.34][ns3.34] | Waf | [link][file2] |
+| [`u18.04-n3.33-boosted`][image1b] | Ubuntu 18.04</br>with Boost C++ v1.74 | [3.33][ns3.33] | Waf | [link][file1b] |
 | [`u18.04-n3.33`][image1] | Ubuntu 18.04 | [3.33][ns3.33] | Waf | [link][file1] |
 
 Full changelog can be found at [this page](./CHANGELOG.md).
@@ -163,7 +166,7 @@ This repository and Docker images themselves are distributed under [MIT license]
 However, ns-3 is distributed under its [own license][ns3-license].
 All installed packages may also be subject to their own license, and the license chosen for the Docker images does not necessarily apply to them.
 
-**Diclaimer: Docker, Ubuntu, ns-3, and other cited or included software belongs to their respective owners.**
+**Diclaimer: Docker, Ubuntu, ns-3, Boost, and other cited or included software belongs to their respective owners.**
 
 
 
@@ -186,14 +189,20 @@ All installed packages may also be subject to their own license, and the license
 [image6]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u22.04-n3.41
 [image5]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u22.04-n3.40
 [image4]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u20.04-n3.40
+[image3b]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u18.04-n3.35-boosted
 [image3]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u18.04-n3.35
+[image2b]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u18.04-n3.34-boosted
 [image2]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u18.04-n3.34
+[image1b]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u18.04-n3.33-boosted
 [image1]: https://hub.docker.com/r/egiona/ns3-base/tags?page=1&name=u18.04-n3.33
 [file6]: ./u22.04-n3.41/Dockerfile
 [file5]: ./u22.04-n3.40/Dockerfile
 [file4]: ./u20.04-n3.40/Dockerfile
+[file3b]: ./u18.04-n3.35-boosted/Dockerfile
 [file3]: ./u18.04-n3.35/Dockerfile
+[file2b]: ./u18.04-n3.34-boosted/Dockerfile
 [file2]: ./u18.04-n3.34/Dockerfile
+[file1b]: ./u18.04-n3.33-boosted/Dockerfile
 [file1]: ./u18.04-n3.33/Dockerfile
 
 [docker-install]: https://docs.docker.com/engine/install/
